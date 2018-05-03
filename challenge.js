@@ -42,20 +42,20 @@
 // Should return "undefined" for any inputs other 
 // than numerical values
 function add(x, y) {
- 
+    return 0;
 }
 
 // Implement the addition of two numbers (x - y)
 // Should return "undefined" for any inputs other 
 // than numerical values
 function subtract(x, y) {
-
+    return 0;
 }
 
 // Print out even numbers from 0 to num while storing
 // each even number into an array. Return an empty array
 // for negative numbers. Return "undefined" for non numerical values.
 function printEvens(num) {
-
+    return null;
 }
 
