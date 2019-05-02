@@ -63,4 +63,25 @@ describe("SUDO Coding Challenge", function() {
             expect(evens).to.be.undefined;
         });
     });
+
+    describe("FizzBuzz", function() {
+        it("should return the correct array(input: [2, 1])", function(){
+            let correct = [];
+            let test = FizzBuzz([2, 1]);
+            expect(test).to.be.an("array");
+            expect(test).to.eql(correct);
+        });
+        it("should return the correct array(input: [3, 5, 11, 12]", function() {
+            let correct = ["Fizz", "Buzz", "Fizz"];
+            let test = FizzBuzz([3, 5, 11, 12]);
+            expect(test).to.be.an("array");
+            expect(test).to.eql(correct);
+        });
+        it("should return the correct array(input: [3, 6, 5, 8, 11, 15, 30, 12]", function() {
+            let correct = ["Fizz", "Fizz", "Buzz", "FizzBuzz", "FizzBuzz", "Fizz"];
+            let test = FizzBuzz([3, 6, 5, 8, 11, 15, 30, 12]);
+            expect(test).to.be.an("array");
+            expect(test).to.eql(correct);
+        })
+    })
 });
