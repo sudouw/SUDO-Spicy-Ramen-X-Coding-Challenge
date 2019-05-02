@@ -63,4 +63,32 @@ describe("SUDO Coding Challenge", function() {
             expect(evens).to.be.undefined;
         });
     });
+
+    describe('arrayFibonacci', function() {
+        it('should return an array [0, 1, 1, 2, 3, 5] for start = 0, end = 3', function() {
+            let output = arrayFibonacci(0,6);
+            expect(output).to.eql([0,1,1,2,3,5]);
+        });
+        it('should return an array [1, 2, 3] for start = 2, end = 5', function() {
+            let output = arrayFibonacci(2, 5);
+            expect(output).to.eql([1,2,3]);
+        })
+        it('should return undefined for start = 0, end = 0', function() {
+            let output = arrayFibonacci(0,0);
+            expect(output).to.be.undefined;
+        })
+        it('should return undefined for no input', function() {
+            let output = arrayFibonacci();
+            expect(output).to.be.undefined;
+        })
+        it('should return undefined for start = 5, end = 1', function() {
+            let output = arrayFibonacci(5, 1);
+            expect(output).to.be.undefined;
+        });
+        it('should return undefined for start = 1.5, end = 3.5', function() {
+            let output = arrayFibonacci(1.5, 3.5);
+            expect(output).to.be.undefined;
+        });
+
+    });
 });

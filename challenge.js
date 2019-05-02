@@ -32,7 +32,7 @@ function add(x, y) {
     return 0;
 }
 
-// Implement the addition of two numbers (x - y)
+// Implement the subtraction of two numbers (x - y)
 // Should return "undefined" for any inputs other 
 // than numerical values
 function subtract(x, y) {
@@ -46,3 +46,10 @@ function printEvens(num) {
     return null;
 }
 
+// Given a start and end, return an array containing
+// the Fibonacci sequence between the given start(inclusive) and end(exclusive)
+// Return undefined for mising input, non integer or negative inputs,
+// and for any inputs where the end is less than or equal to the start
+function arrayFibonacci(start, end) {
+    return null;
+}
