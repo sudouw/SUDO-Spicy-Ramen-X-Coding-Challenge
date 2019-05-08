@@ -1,4 +1,4 @@
-// ███████╗██╗   ██╗██████╗  ██████╗    Claire Kim    Wesley Wei       Adrian Ionescu   2018
+// ███████╗██╗   ██╗██████╗  ██████╗    Claire Kim    Wesley Wei       Adrian Ionescu   2019
 // ██╔════╝██║   ██║██╔══██╗██╔═══██╗   Alexis Choi   Estelle Jiang    Jiayu Wang       UW Seattle
 // ███████╗██║   ██║██║  ██║██║   ██║   ZK Lin        Scarlett Hwang   Veronica Chang
 // ╚════██║██║   ██║██║  ██║██║   ██║   Kelden Lin    John Soter
